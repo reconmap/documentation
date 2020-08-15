@@ -4,6 +4,6 @@ title: Development
 
 ## Development
 
-[https://github.com/reconmap](Github organisation)
+[Github organisation](https://github.com/reconmap)
 
-[https://demo.reconmap.org](Demo server)
+[Demo server](https://demo.reconmap.org)
