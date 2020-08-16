@@ -2,8 +2,20 @@
 title: Development
 ---
 
+<img src="images/undraw_programming_2svr.svg" width="200" alt="Development picture" />
+
 ## Development
 
-[Github organisation](https://github.com/reconmap)
+### Version control
 
-[Demo server](https://demo.reconmap.org)
+All the code for Reconmap is in the open. Below are the most important Github links:
+
+- [Github organisation](https://github.com/reconmap)
+
+- [Backend repository](https://github.com/reconmap/api-backend) - PHP backend
+- [Web frontend](https://github.com/reconmap/web-frontend) - React frontend
+- [Website](https://github.com/reconmap/website) - This website
+
+### Chat
+
+Find us on [Gitter](https://gitter.im/reconmap/community) where we can discuss any Reconmap related topic.
