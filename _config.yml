@@ -4,4 +4,5 @@ remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+ga_tracking: UA-175514417-1
 
