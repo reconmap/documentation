@@ -11,7 +11,10 @@ has_children: true
 - Extensible via plugins
 - Multiple language support
 - User roles and permissions
-- vReport generation (PDF, Word)
+- Report generation (PDF, Word)
+- Rest API: Integrate ReconMap with external tools and scripts.
+- Whitelabel support: Generate reports with your brand.
+- Data export functionality
 
 ### Templates
 
