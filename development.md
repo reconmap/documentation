@@ -10,6 +10,8 @@ title: Development
 
 All the code for Reconmap is in the open. Below are the most important Github links:
 
+![Reconmap Github org](/images/reconmap-github-org.png)
+
 - [Github organisation](https://github.com/reconmap)
 
 - [Backend repository](https://github.com/reconmap/api-backend) - PHP backend
