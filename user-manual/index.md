@@ -1,8 +1,9 @@
 ---
 title: User manual
+has_children: true
 ---
 
-## User manual
+## {{page.title}}
 
 ### How does it work
 
