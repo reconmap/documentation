@@ -12,7 +12,7 @@ has_children: true
 - Multiple language support
 - User roles and permissions
 - Report generation (PDF, Word)
-- [Rest API](https://petstore.swagger.io/?url=https://raw.githubusercontent.com/Reconmap/api-backend/master/openapi.yaml): Integrate ReconMap with external tools and scripts.
+- [Rest API](https://petstore.swagger.io/?url=https://raw.githubusercontent.com/Reconmap/api-backend/master/openapi.yaml): Integrate Reconmap with external tools and scripts.
 - Whitelabel support: Generate reports with your brand.
 - Data export functionality
 
