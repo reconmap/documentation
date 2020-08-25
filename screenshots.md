@@ -10,9 +10,9 @@ title: Screenshots
 
 ![Login](/images/screenshots/login.png)
 
-### Project
+### Vulnerabilities
 
-![Project](/images/screenshots/project.png)
+![Vulnerabilities view](/images/screenshots/vulnerabilities.png)
 
 ### Integrations
 

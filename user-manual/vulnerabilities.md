@@ -7,7 +7,7 @@ parent: User manual
 
 The **vulnerabilities** view lists all the vulnerabilities that were reported by the user or the system (eg automatically after parsing results).
 
-![Login](/images/screenshots/vulnerabilities.png)
+![Vulnerabilities view](/images/screenshots/vulnerabilities.png)
 
 The vulnerabilities list allows presents the following information:
 
