@@ -1,6 +1,7 @@
 ---
 title: Features
 has_children: true
+nav_order: 1
 ---
 
 ## Features
@@ -15,11 +16,3 @@ has_children: true
 - [Rest API](https://petstore.swagger.io/?url=https://raw.githubusercontent.com/Reconmap/api-backend/master/openapi.yaml): Integrate Reconmap with external tools and scripts.
 - Whitelabel support: Generate reports with your brand.
 - Data export functionality
-
-### Templates
-
-- Single Linux host
-- Single Windows host
-- Internet domain
-- Intranet domain
-- Email address

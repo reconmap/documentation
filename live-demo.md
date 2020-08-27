@@ -1,5 +1,6 @@
 ---
 title: Live demo
+nav_order: 1
 ---
 
 <img src="images/undraw_feeling_proud_qne1.svg" width="200" alt="Live demo picture" />

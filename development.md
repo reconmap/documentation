@@ -1,5 +1,6 @@
 ---
 title: Development
+nav_order: 1
 ---
 
 <img src="images/undraw_programming_2svr.svg" width="200" alt="Development picture" />
