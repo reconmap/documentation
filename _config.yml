@@ -7,3 +7,5 @@ plugins:
   - jekyll-sitemap
 ga_tracking: UA-175514417-1
 
+exclude:
+  - Makefile
