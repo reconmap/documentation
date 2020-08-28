@@ -8,4 +8,6 @@ plugins:
 ga_tracking: UA-175514417-1
 
 exclude:
+  - Gemfile
+  - Gemfile.lock
   - Makefile
