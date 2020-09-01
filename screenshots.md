@@ -7,10 +7,6 @@ nav_order: 1
 
 ## Screenshots
 
-### Login
-
-![Login](/images/screenshots/login.png)
-
 ### Vulnerabilities
 
 ![Vulnerabilities view](/images/screenshots/vulnerabilities.png)
@@ -18,3 +14,5 @@ nav_order: 1
 ### Integrations
 
 ![Integrations](/images/screenshots/integrations.png)
+
+There are many more screenshots in the [user manual](/user-manual/).

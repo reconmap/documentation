@@ -1,0 +1,10 @@
+---
+title: User preferences
+parent: User manual
+---
+
+## {{page.title}}
+
+The user preferences page allows you to change your preferred timezone. This is helpful not only to see dates and times relative to the place you live, but also to let other users know where you are located and when you might become available to chat and discuss about your projects.
+
+![User preferences](/images/screenshots/user-preferences.png)
