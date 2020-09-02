@@ -6,6 +6,9 @@ plugins:
   - jekyll-include-cache
   - jekyll-sitemap
 ga_tracking: UA-175514417-1
+twitter:
+  username: Reconmap
+  card: summary
 
 exclude:
   - Gemfile
