@@ -1,9 +1,10 @@
 ---
 title: Development
 nav_order: 1
+has_children: true
 ---
 
-<img src="images/undraw_programming_2svr.svg" width="200" alt="Development picture" />
+<img src="/images/undraw_programming_2svr.svg" width="200" alt="Development picture" />
 
 ## Development
 
