@@ -20,3 +20,7 @@ Ideal if you want to scale Reconmap to large teams or to public communities acce
 Manually refers to the option of installing all dependencies (eg PHP, MySQL, Nginx, ...) and the application on an operating system and server of your choice.
 
 This option gives you complete flexibility but also adds a lot of maintenance overhead.
+
+### SaaS
+
+If you prefer to use a Software-as-a-Service solution, [Reconmap.com](https://reconmap.com) is the place for you. Hosted Reconmap from the lead developers of the project. _Available from Q4 2020_.
