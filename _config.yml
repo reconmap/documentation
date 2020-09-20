@@ -1,4 +1,6 @@
 title: "Reconmap"
+description: "Open-source pentesting collaboration tool for teams with automation and reporting features"
+
 color_scheme: "dark"
 remote_theme: pmarsceill/just-the-docs
 plugins:
