@@ -12,8 +12,10 @@ The **vulnerabilities** view lists all the vulnerabilities that were reported by
 The vulnerabilities list allows presents the following information:
 
 |Summary|Short description of the vulnerability|
+|Description|First words from the longer vulnerability description|
 |Risk|None, Low, Medium, High, Critical|
 |CVSS Score|Common Vulnerability Score System value|
+|Category|One of 'Access Controls', 'Auditing and Logging', 'Authentication', 'Configuration', ...|
 |Status|Open or closed|
 |Date/Time|Date and time when the vulnerabilty was reported|
 
