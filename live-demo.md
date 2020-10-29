@@ -9,7 +9,11 @@ nav_order: 1
 
 There is a live demo running on [https://demo.reconmap.org](https://demo.reconmap.org).
 
-The default credentials are admin/admin123.
+The default credentials are
+
+|-|-|
+|Username|admin|
+|Password|admin123|
 
 ## Watch it working
 
