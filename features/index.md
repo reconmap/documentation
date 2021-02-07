@@ -20,5 +20,6 @@ nav_order: 1
 - Audit log
 - Extensible via plugins
 - Web and mobile clients
+- Dark/Light themes
 - Free and open source
 - And more!
