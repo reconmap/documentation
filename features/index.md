@@ -6,11 +6,19 @@ nav_order: 1
 
 ## {{page.title}}
 
-- Free and open source
+- Simple dashboard with analytics
+- Search across all your data (projects, vulnerabilities, tasks, ...)
+- Users and roles
+- Security commands database and automation
+- Vulnerability database
+- Tasks manager
+- Project and templates
+- Client management
+- Export/import data
+- [Rest API](https://api.reconmap.org/docs/): to easily integrate Reconmap with external tools and scripts.
+- Custom (whitelabel) report generation (HTML, PDF)
+- Audit log
 - Extensible via plugins
-- Multiple language support
-- User roles and permissions
-- Report generation (HTML, PDF)
-- [Rest API](https://petstore.swagger.io/?url=https://raw.githubusercontent.com/Reconmap/api-backend/master/docs/openapi.yaml): to easily integrate Reconmap with external tools and scripts.
-- Whitelabel support: Generate reports with your brand.
-- Data export functionality
+- Web and mobile clients
+- Free and open source
+- And more!
