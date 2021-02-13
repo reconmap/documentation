@@ -7,11 +7,14 @@ nav_order: 1
 
 There is a live demo running on [https://demo.reconmap.org](https://demo.reconmap.org).
 
-The default credentials are
+The demo server has 4 users to show the different permission levels. The credentials for these users are:
 
-|-|-|
-|Username|admin|
-|Password|admin123|
+|Username|Password|Role|
+|-|-|-|
+|admin|admin123|Administrator|
+|su|su123|Superuser|
+|user|user123|User|
+|cust|cust123|Client|
 
 ## Watch it working
 
