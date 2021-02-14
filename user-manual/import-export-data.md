@@ -15,7 +15,7 @@ You can import data exported from another Reconmap instance or backup into the s
 
 ### Export data
 
-The export data functionality allows you to export Reconmap data to XML. The exportable data are:
+The export data functionality allows you to export Reconmap data to JSON. The exportable data are:
 
 - Vulnerabilities
 - Tasks
@@ -23,22 +23,21 @@ The export data functionality allows you to export Reconmap data to XML. The exp
 - Clients
 - Users
 
-An extract of an XML export can be see below:
+An extract of an JSON export can be see below:
 
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<reconmap>
-  <vulnerabilities>
-    <vulnerability summary="Test vulnerability #8">
-      <description>This is just a test</description>
-    </vulnerability>
-    <vulnerability summary="Test vulnerability #16">
-      <description/>
-    </vulnerability>
-    <vulnerability summary="Test vulnerability #15">
-      <description/>
-  </vulnerabilities>
-</reconmap>
+```js
+{
+  "users": [
+    {
+      "id": 1,
+      "insert_ts": "2021-02-13 20:55:32",
+      "update_ts": "2021-02-13 20:55:32",
+      "full_name": "Jane Doe",
+      "username": "admin",
+      "email": "admin@localhost",
+      "role": "administrator"
+    }
+}
 ```
 
 If you wish to export the audit log, refer to the [audit log section](/user-manual/audit-log.html) user manual.
