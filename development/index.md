@@ -14,8 +14,11 @@ All the code for Reconmap is in the open. Below are the most important Github li
 
 - [Github organisation](https://github.com/reconmap)
 
-- [Backend repository](https://github.com/reconmap/api-backend) - PHP backend
-- [Web frontend](https://github.com/reconmap/web-frontend) - React frontend
+#### Repositories
+
+- [REST API](https://github.com/reconmap/rest-api) - PHP backend
+- [Web client](https://github.com/reconmap/web-client) - React frontend
+- [CLI](https://github.com/reconmap/cli) - Golang command line
 - [Website](https://github.com/reconmap/website) - This website
 
 ### Chat

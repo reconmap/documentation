@@ -16,7 +16,7 @@ The vulnerabilities list allows presents the following information:
 |Risk|None, Low, Medium, High, Critical|
 |CVSS Score|Common Vulnerability Score System value|
 |Category|One of 'Access Controls', 'Auditing and Logging', 'Authentication', 'Configuration', ...|
-|Status|Open or closed|
+|Status|- Open (reported, unresolved)<br/>- Confirmed (unexploited, exploited)<br/>- Resolved (remediated, mitigated)<br/>- Closed (remediated, mitigated, rejected)|
 |Date/Time|Date and time when the vulnerabilty was reported|
 
 From this view you can view more details about each vulnerability or delete them if they are no longer applicable.
