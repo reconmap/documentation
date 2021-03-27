@@ -3,11 +3,12 @@ title: Home
 nav_order: 0
 ---
 
-![images/logo.png](images/logo.png)
+## Open-source **vulnerability assessment** and **pentesting management** platform
 
-# Open-source pentesting management and reporting platform
+![images/browser-preview.png](images/browser-preview.png)
 
 Reconmap is an open-source **collaboration platform for InfoSec professionals** that allows them to plan, execute and document all phases of penetration test projects for multiple targets and clients.
 
 #vulnerability-management
 #penetration-testing
+#vapt
