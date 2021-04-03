@@ -9,6 +9,7 @@ nav_order: 1
 - Simple dashboard with analytics
 - Search across all your data (projects, vulnerabilities, tasks, ...)
 - Users and roles (including client access to projects)
+- Two-factor authentication (2FA/MFA, TOPT)
 - Security commands database and automation
 - Vulnerability database
 - Tasks manager
