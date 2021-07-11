@@ -1,6 +1,7 @@
 ---
 title: Project membership
-parent: User manual
+parent: Projects
+grand_parent: User manual
 ---
 
 ## {{page.title}}
