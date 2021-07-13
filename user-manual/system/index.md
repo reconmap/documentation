@@ -1,5 +1,5 @@
 ---
-title: Projects
+title: System
 parent: User manual
 has_children: true
 ---

@@ -1,6 +1,7 @@
 ---
 title: Data export
-parent: User manual
+parent: System
+grand_parent: User manual
 ---
 
 ## {{page.title}}
