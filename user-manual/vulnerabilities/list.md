@@ -1,6 +1,7 @@
 ---
-title: Vulnerabilities
-parent: User manual
+title: Vulnerability list
+parent: Vulnerabilities
+grand_parent: User manual
 ---
 
 ## {{page.title}}
