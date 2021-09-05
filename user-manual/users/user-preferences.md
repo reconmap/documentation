@@ -1,6 +1,7 @@
 ---
 title: User preferences
-parent: User manual
+parent: Users
+grand_parent: User manual
 ---
 
 ## {{page.title}}

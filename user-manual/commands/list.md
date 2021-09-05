@@ -1,6 +1,7 @@
 ---
-title: Commands
-parent: User manual
+title: Commands list
+parent: Commands
+grand_parent: User manual
 ---
 
 ## {{page.title}}

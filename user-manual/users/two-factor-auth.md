@@ -1,6 +1,7 @@
 ---
 title: Two-factor authentication
-parent: User manual
+parent: Users
+grand_parent: User manual
 ---
 
 ## {{page.title}}

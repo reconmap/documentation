@@ -9,4 +9,4 @@ The Reconmap architecture is quite simple. We have a RESTful API written in PHP8
 
 The command automation is done using the Docker API and a Golang client.
 
-![Reconmap architecture](/images/development/architecture.png)
+![Reconmap architecture](/images/development/architecture.jpg)
