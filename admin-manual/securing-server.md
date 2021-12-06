@@ -18,7 +18,7 @@ EOF
 sudo apt-get install -y iptables-persistent
 
 sudo iptables -I DOCKER-USER -i eth0 ! -s 127.0.0.1 -p tcp --dport 3306 -j DROP
-sudo iptables -I DOCKER-USER -i eth0 ! -s 127.0.0.1 -p tcp --dport 8080 -j DROP
-sudo iptables -I DOCKER-USER -i eth0 ! -s 127.0.0.1 -p tcp --dport 3001 -j DROP
+sudo iptables -I DOCKER-USER -i eth0 ! -s 127.0.0.1 -p tcp --dport 5500 -j DROP
+sudo iptables -I DOCKER-USER -i eth0 ! -s 127.0.0.1 -p tcp --dport 5510 -j DROP
 sudo iptables-save
 ```

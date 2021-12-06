@@ -69,7 +69,7 @@ server {
     index index.html;
 
     location / {
-        proxy_pass http://127.0.0.1:3001;
+        proxy_pass http://127.0.0.1:5500;
     }
 }
 
@@ -78,7 +78,7 @@ server {
     server_name api.YOUR-SECURITY-COMPANY-DOMAIN.com;
 
     location / {
-        proxy_pass http://127.0.0.1:8080;
+        proxy_pass http://127.0.0.1:5510;
         proxy_set_header    X-Forwarded-Host   \$host;
         proxy_set_header    X-Forwarded-Server \$host;
         proxy_set_header    X-Forwarded-For    \$proxy_add_x_forwarded_for;
@@ -147,5 +147,5 @@ sudo service nginx restart
 
 ## Installation verification
 
-**Congratulations!** Your Reconmap instance should be up and running. To verify everything is working open your browser and head to http://localhost:3001 (unless host, IP are different) and enter the default credentials. You should see a Reconmap's dashboard. If something does not work, visit the [troubleshooting](/development/troubleshooting) page.
+**Congratulations!** Your Reconmap instance should be up and running. To verify everything is working open your browser and head to http://localhost:5500 (unless host, IP are different) and enter the default credentials. You should see a Reconmap's dashboard. If something does not work, visit the [troubleshooting](/development/troubleshooting) page.
 

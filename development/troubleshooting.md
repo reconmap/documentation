@@ -23,13 +23,13 @@ Example output:
 #0 /var/www/webapp/src/Services/ConfigLoader.php(12): json_decode()
 #1 /var/www/webapp/public/index.php(26): Reconmap\Services\ConfigLoader->loadFromFile()
 #2 {main}
-  thrown in /var/www/webapp/src/Services/ConfigLoader.php on line 12" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "OPTIONS /users/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "localhost:8080", referrer: "http://localhost:3001/login"
+  thrown in /var/www/webapp/src/Services/ConfigLoader.php on line 12" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "OPTIONS /users/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "localhost:5510", referrer: "http://localhost:5500/login"
 2020/10/29 19:40:11 [error] 25#25: *54 FastCGI sent in stderr: "PHP message: PHP Warning:  file_get_contents(/var/www/webapp/config.json): failed to open stream: No such file or directory in /var/www/webapp/src/Services/ConfigLoader.php on line 12PHP message: PHP Stack trace:PHP message: PHP   1. {main}() /var/www/webapp/public/index.php:0PHP message: PHP   2. Reconmap\Services\ConfigLoader->loadFromFile() /var/www/webapp/public/index.php:26PHP message: PHP   3. file_get_contents() /var/www/webapp/src/Services/ConfigLoader.php:12PHP message: PHP Fatal error:  Uncaught TypeError: json_decode() expects parameter 1 to be string, bool given in /var/www/webapp/src/Services/ConfigLoader.php:12
 Stack trace:
 #0 /var/www/webapp/src/Services/ConfigLoader.php(12): json_decode()
 #1 /var/www/webapp/public/index.php(26): Reconmap\Services\ConfigLoader->loadFromFile()
 #2 {main}
-  thrown in /var/www/webapp/src/Services/ConfigLoader.php on line 12" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "OPTIONS /users/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "localhost:8080", referrer: "http://localhost:3001/login"
+  thrown in /var/www/webapp/src/Services/ConfigLoader.php on line 12" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "OPTIONS /users/login HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "localhost:5510", referrer: "http://localhost:5500/login"
 ```
 
 ### Application logs
