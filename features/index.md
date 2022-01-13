@@ -15,6 +15,7 @@ nav_order: 1
 - Security commands database and automation
 - Tasks manager
 - Client management
+- Weekly email reports
 - Export/import data
 - Tagging
 - Browser terminal integration
@@ -26,5 +27,6 @@ nav_order: 1
 - Dark/Light themes
 - [Rest API](https://api.reconmap.org/docs/): to easily integrate Reconmap with external tools and scripts.
 - Extensible via plugins
+- Unicode and UTF8 support
 - Free and open source
 - And more!
