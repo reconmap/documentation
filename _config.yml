@@ -1,3 +1,5 @@
+url: "https://docs.reconmap.com"
+baseurl: ""
 title: "Reconmap"
 description: "Open-source pentesting collaboration tool for teams with automation and reporting features"
 logo: "/images/logo.png"
