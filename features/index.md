@@ -22,8 +22,9 @@ nav_order: 1
 - Notes with markdown support
 - Attachments (docs, screenshots) to projects, vulnerabilities and tasks
 - Custom (whitelabel) report generation (HTML, PDF)
-- Audit log
+- [Audit log](/user-manual/system/audit-log.html)
 - Web and mobile clients
+- [User notifications](/user-manual/users/user-notifications.html)
 - Dark/Light themes
 - [Rest API](https://api.reconmap.org/docs/): to easily integrate Reconmap with external tools and scripts.
 - Extensible via plugins
