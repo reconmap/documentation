@@ -88,8 +88,10 @@ server {
     }   
 }
 EOF
-
 ```
+
+**Important:** If you are copy and pasting the nginx configuration above instead of using `cat` remove all the escaping (ie `$` instead of `\$`) or strange things will happen!
+{: .bg-red-000 .text-grey-dk-250 .p-3 }
 
 ### Install and configure Letsencrypt
 
@@ -147,5 +149,5 @@ sudo service nginx restart
 
 ## Installation verification
 
-**Congratulations!** Your Reconmap instance should be up and running. To verify everything is working open your browser and head to http://localhost:5500 (unless host, IP are different) and enter the default credentials. You should see a Reconmap's dashboard. If something does not work, visit the [troubleshooting](/development/troubleshooting) page.
+**Congratulations!** Your Reconmap instance should be up and running. To verify everything is working open your browser and head to http://localhost:5500 (unless host, IP are different) and enter the [default credentials](/admin-manual/default-credentials.html). You should see a Reconmap's dashboard. If something does not work, visit the [troubleshooting](/development/troubleshooting) page.
 
