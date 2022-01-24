@@ -3,8 +3,8 @@ baseurl: ""
 title: "Reconmap"
 description: "Open-source pentesting collaboration tool for teams with automation and reporting features"
 logo: "/images/logo.png"
+color_scheme: wider
 
-color_scheme: "dark"
 remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-feed
@@ -28,4 +28,3 @@ exclude:
   - CREDITS
   - CNAME
   - README.md
-
