@@ -21,7 +21,7 @@ nav_order: 1
 - Browser terminal integration
 - Notes with markdown support
 - Attachments (docs, screenshots) to projects, vulnerabilities and tasks
-- Custom (whitelabel) report generation (HTML, PDF)
+- Custom (whitelabel) [report generation](/user-manual/reports/index.html)
 - [Audit log](/user-manual/system/audit-log.html)
 - Web and mobile clients
 - [User notifications](/user-manual/users/user-notifications.html)

@@ -1,6 +1,7 @@
 ---
 title: Saved reports
-parent: User manual
+parent: Reports
+grand_parent: User manual
 ---
 
 ## {{page.title}}
