@@ -1,4 +1,4 @@
-Sitemap: https://reconmap.com/sitemap.xml
+Sitemap: https://docs.reconmap.com/sitemap.xml
 User-agent: *
 Disallow:
 
