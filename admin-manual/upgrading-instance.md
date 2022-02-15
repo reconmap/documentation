@@ -8,7 +8,7 @@ parent: Admin manual
 ### Destructive upgrade
 
 **CAUTION:** This method will destroy all previous data. Do not proceed unless you don't mind losing everything that exists in the previous Reconmap version.
-{: .p-2 .text-red-300 .bg-yellow-000 }
+{: .fw-700 .p-2 .text-red-200 .bg-yellow-100 }
 
 ```shell
 docker-compose pull
