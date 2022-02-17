@@ -26,7 +26,7 @@ nav_order: 1
 - Web and mobile clients
 - [User notifications](/user-manual/users/user-notifications.html)
 - Dark/Light themes
-- [Rest API](https://api.reconmap.org/docs/): to easily integrate Reconmap with external tools and scripts.
+- [Rest API](https://demo.api.reconmap.com/docs/): to easily integrate Reconmap with external tools and scripts.
 - Extensible via plugins
 - Unicode and UTF8 support
 - Free and open source

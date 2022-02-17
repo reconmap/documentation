@@ -16,7 +16,7 @@ Edit the content of the file to show (adjusting the values accordingly):
                 "port": 587,
                 "username": "smtpuser",
                 "password": "smtpsecret",
-                "fromEmail": "no-reply@reconmap.org",
+                "fromEmail": "no-reply@reconmap.com",
                 "fromName": "Reconmap"
         }
 }

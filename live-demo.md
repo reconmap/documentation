@@ -5,7 +5,7 @@ nav_order: 1
 
 ## Try it yourself
 
-There is a live demo running on [https://demo.reconmap.org](https://demo.reconmap.org).
+There is a live demo running on [https://demo.reconmap.com](https://demo.reconmap.com).
 
 The demo server has 4 users to show the different permission levels. The credentials for these users are:
 
