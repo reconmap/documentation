@@ -1,6 +1,6 @@
 url: "https://docs.reconmap.com"
 baseurl: ""
-title: "Reconmap"
+title: "Reconmap Docs"
 description: "Open-source pentesting collaboration tool for teams with automation and reporting features"
 logo: "/images/logo.png"
 color_scheme: wider
@@ -17,7 +17,7 @@ twitter:
 
 gh_edit_link: true
 gh_edit_link_text: "Edit this page on GitHub."
-gh_edit_repository: "https://github.com/reconmap/website-org"
+gh_edit_repository: "https://github.com/reconmap/documentation"
 gh_edit_branch: "master"
 gh_edit_view_mode: "tree"
 

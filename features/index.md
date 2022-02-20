@@ -15,6 +15,7 @@ nav_order: 1
 - Security commands database and automation
 - Tasks manager
 - Client management
+- Client contacts (general, billing, technical)
 - Weekly email reports
 - Export/import data
 - Tagging
@@ -31,3 +32,4 @@ nav_order: 1
 - Unicode and UTF8 support
 - Free and open source
 - And more!
+
