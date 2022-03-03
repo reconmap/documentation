@@ -17,6 +17,6 @@ When you are designing your pentest project template, you can reference a number
 |users|Project's users|full_name, short_bio, email, role|
 |targets|Project's targets|name, kind, tags|
 |findingsOverview|Findings stats|severity, count|
-|vulnerabilities|Project's vulnerabilities|summary, description, risk, remediation, status, cvss_score, cvss_vector, proof_of_concept|
+|vulnerabilities|Project's vulnerabilities|summary, description, risk, remediation, status, cvss_score, cvss_vector, proof_of_concept, owasp_vector, owasp_overall|
 |revisionHistoryDateTime|Report's revisions|dateTime, versionName, versionDescription|
-
+|vault| Project's vault | name, note, type |
