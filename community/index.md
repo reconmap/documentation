@@ -8,8 +8,18 @@ has_children: false
 
 Meet some of our contributors! We are a small team for now but open to new contributors coming with ideas, coding or testing skills, security expertise, and whatnot.
 
-<a href="https://github.com/reconmap/api-backend/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=reconmap/api-backend" />
+## Rest-API
+
+<a href="https://github.com/reconmap/rest-api/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=reconmap/rest-api" />
 </a>
+
+## Web client
+
+<a href="https://github.com/reconmap/web-client/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=reconmap/web-client" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
 
 Head over to [Gitter](https://gitter.im/reconmap/community) to have a chat an discuss how to get involved with the community.

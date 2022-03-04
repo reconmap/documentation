@@ -6,7 +6,7 @@ nav_order: 1
 
 ## {{page.title}}
 
-- Simple dashboard with analytics
+- [Dashboard](/user-manual/dashboard.html) and analytics
 - Search across all your data (projects, vulnerabilities, tasks, ...)
 - Users and roles (including client access to projects)
 - Two-factor authentication (2FA/MFA, TOPT)

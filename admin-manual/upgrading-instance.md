@@ -5,15 +5,26 @@ parent: Admin manual
 
 ## {{page.title}}
 
-### Destructive upgrade
+### Incremental upgrade
 
-**CAUTION:** This method will destroy all previous data. Do not proceed unless you don't mind losing everything that exists in the previous Reconmap version.
-{: .fw-700 .p-2 .text-red-200 .bg-yellow-100 }
+This is the upgrade path on instances where you have data and you want to preserve it (99% of the cases).
+
+Run the following commands on the directory where you have your `docker-compose.yml`.
 
 ```shell
-docker-compose pull
-docker-compose stop
-docker-compose rm -v
-rm -rf data-mysql
-docker-compose up -d
+docker-compose pull # Download latest version of the docker images
+docker-compose down # Stop and remove any containers
+docker-compose up -d # Build containers and start them
+docker-compose run --entrypoint /usr/bin/php api /var/www/webapp/src/Cli/app.php database:migrate-schema # Perform any database migration
+```
+
+### Destructive upgrade
+
+**CAUTION:** This method will destroy all existing data. Do not proceed with these instructions unless you don't mind losing everything that exists in the Reconmap database.
+
+```shell
+docker-compose pull # Download latest version of the docker images
+docker-compose down -v # Stop and remove any containers and volumes
+rm -rf data-mysql # Remove MySQL data directory
+docker-compose up -d # Build containers and start them
 ```
