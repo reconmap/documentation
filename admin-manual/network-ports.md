@@ -8,11 +8,10 @@ parent: Admin manual
 The docker images provided by Reconmap use the ports described below by default. These are all above 1024 (non-privileged) to ensure they can be run as non-root.
 
 |Vendor|Application|Port|
-|-|-|-|-|
+|---|---|---|
 |Reconmap|Web client|5500|
 |Reconmap|Rest API|5510|
-|Reconmap|Notifications service|5520|
-|Reconmap|Agent service|5530|
+|Reconmap|Agent / Notifications service|5520|
 |Redis|Redis|6379|
 |Oracle|MySQL|3306|
 
