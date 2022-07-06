@@ -6,10 +6,11 @@ nav_order: 1
 
 ## {{page.title}}
 
+- SSO and user federation (ldap, active directory) with OpenID/SAML support ([keycloak](https://www.keycloak.org/))
+- Two-factor authentication (2FA/MFA, TOPT), email verification
 - [Dashboard](/user-manual/dashboard.html) and analytics
 - Search across all your data (projects, vulnerabilities, tasks, ...)
 - Users and roles (including client access to projects)
-- Two-factor authentication (2FA/MFA, TOPT)
 - Projects and projects templates
 - Vulnerabilities and vulnerability templates database
 - Security commands database and automation
