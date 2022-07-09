@@ -5,8 +5,12 @@ parent: Development
 
 ## {{page.title}}
 
-The Reconmap architecture is quite simple. We have a RESTful API written in PHP8.4 and a bunch of clients written in React and React native. The information is stored in a MySQL 8.0 server and for background processing and messaging we relay on Rabbitmq.
+The Reconmap multi-tier architecture was designed to scale and serve anything from small pentesting teams to large infosec organisations. At a high-level it consists of multiple clients (Web, mobile, command line) that communicate to a Rest API to get and process information. Information is stored permanently in a MySQL database, and a Redis service is used to cache information.
 
-The command automation is done using the Docker API and a Golang client.
+A keycloak identity service (Open ID connect) is used to authenticate users and JWT tokens are also used for service to service communication.
 
-![Reconmap architecture](/images/development/architecture.jpg)
+The last part of this architecture is Rabbitmq, a message queue and broker.
+
+![Reconmap architecture](https://raw.githubusercontent.com/reconmap/architecture-diagrams/main/reconmap_system_architecture.png)
+
+_The diagram above was created from code using Python. See the source [here](https://github.com/reconmap/architecture-diagrams)._
