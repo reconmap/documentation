@@ -31,6 +31,7 @@ nav_order: 1
 - [Rest API](https://demo.api.reconmap.com/docs/): to easily integrate Reconmap with external tools and scripts.
 - Extensible via plugins
 - Unicode and UTF8 support
+- Internationalisation (I18n) and localisation (L10n). Languages supported: English, Spanish
 - Free and open source
 - And more!
 
