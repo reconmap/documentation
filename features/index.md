@@ -14,6 +14,7 @@ nav_order: 1
 - Projects and projects templates
 - Vulnerabilities and vulnerability templates database
 - Security commands database and automation
+- Scheduled commands using cron expressions
 - Tasks manager
 - Client management
 - Client contacts (general, billing, technical)
