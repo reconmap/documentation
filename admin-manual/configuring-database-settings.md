@@ -11,11 +11,11 @@ Edit the content of the file to show (adjusting the values accordingly):
 
 ```json
 {
-	"database": {
-		"host": "db",
-		"username": "reconmapper",
-		"password": "reconmapped",
-		"name": "reconmap"
-	}
+    "database": {
+        "host": "rmap-mysql",
+        "username": "reconmapper",
+        "password": "reconmapped",
+        "name": "reconmap"
+    },
 }
 ```
