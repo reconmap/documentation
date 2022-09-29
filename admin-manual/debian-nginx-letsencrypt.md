@@ -53,7 +53,7 @@ sudo add-apt-repository \
 sudo apt-get update
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io
 
-sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo curl -L "https://github.com/docker/compose/releases/download/v2.11.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 ```
 
@@ -71,6 +71,21 @@ server {
     location / {
         proxy_pass http://127.0.0.1:5500;
     }
+}
+
+server {
+    server_tokens off;
+    server_name auth.YOUR-SECURITY-COMPANY-DOMAIN.com;
+
+    location / {
+        proxy_pass http://127.0.0.1:8080;
+        proxy_set_header    X-Forwarded-Host   \$host;
+        proxy_set_header    X-Forwarded-Server \$host;
+        proxy_set_header    X-Forwarded-For    \$proxy_add_x_forwarded_for;
+        proxy_set_header    X-Forwarded-Proto  \$scheme;
+        proxy_set_header    X-Real-IP          \$remote_addr;
+        proxy_set_header    Host               \$host;
+    }   
 }
 
 server {
@@ -98,9 +113,9 @@ EOF
 ```shell
 sudo apt-get update
 sudo apt-get install -y certbot
-sudo apt-get install -y python-certbot-nginx
+sudo apt-get install -y python3-certbot-nginx
 
-sudo certbot -d YOUR-SECURITY-COMPANY-DOMAIN.com --nginx --agree-tos --email support@YOUR-SECURITY-COMPANY-DOMAIN.com -n --redirect
+sudo certbot -d "YOUR-SECURITY-COMPANY-DOMAIN.com,auth.YOUR-SECURITY-COMPANY-DOMAIN.com,api.YOUR-SECURITY-COMPANY-DOMAIN.com" --nginx --agree-tos --email support@YOUR-SECURITY-COMPANY-DOMAIN.com -n --redirect
 ```
 
 ### Prepare folder/files
@@ -133,18 +148,17 @@ Changes to `config.json`:
 Changes to `environment.js`:
 - Change all URLs, hosts and ports to match the ones for your server and whatever you define in the `docker-compose.yml` file.
 
-
-### Install test data
-
-```shell
-wget https://raw.githubusercontent.com/reconmap/rest-api/master/database/03-test-data.sql -O- | docker exec -i rmap-mysql mysql -ureconmapper -preconmapped reconmap
-```
-
 ### Starting services
 
 ```shell
 sudo docker-compose up -d
 sudo service nginx restart
+```
+
+### Install test data
+
+```shell
+wget https://raw.githubusercontent.com/reconmap/rest-api/master/database/03-test-data.sql -O- | docker exec -i rmap-mysql mysql -ureconmapper -preconmapped reconmap
 ```
 
 ## Installation verification
