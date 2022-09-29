@@ -100,7 +100,7 @@ sudo apt-get update
 sudo apt-get install -y certbot
 sudo apt-get install -y python-certbot-nginx
 
-sudo certbot YOUR-SECURITY-COMPANY-DOMAIN.com --nginx --agree-tos --email support@YOUR-SECURITY-COMPANY-DOMAIN.com -n --redirect
+sudo certbot -d YOUR-SECURITY-COMPANY-DOMAIN.com --nginx --agree-tos --email support@YOUR-SECURITY-COMPANY-DOMAIN.com -n --redirect
 ```
 
 ### Prepare folder/files
