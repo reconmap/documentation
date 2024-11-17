@@ -9,12 +9,9 @@ There is a live demo running on [https://demo.reconmap.com](https://demo.reconma
 
 The demo server has 4 users to show the different permission levels. The credentials for these users are:
 
-|Username|Password|Role|
-|-|-|-|
-|admin|admin123|Administrator|
-|su|su123|Superuser|
-|user|user123|User|
-|cust|cust123|Client|
+| Username | Password | Role          |
+| -------- | -------- | ------------- |
+| admin    | admin123 | Administrator |
 
 ## Watch it working
 
