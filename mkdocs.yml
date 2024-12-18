@@ -1,0 +1,20 @@
+site_name: Reconmap docs
+
+repo_url: https://github.com/reconmap/documentation
+
+theme:
+  name: material
+  palette: 
+    - scheme: default
+      primary: red
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: red
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+extra:
+  generator: false
