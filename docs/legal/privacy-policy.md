@@ -3,8 +3,6 @@ title: Privacy Policy
 parent: Legal
 ---
 
-## {{page.title}}
-
 Your privacy is important to us. It is Reconmap's policy to respect your privacy regarding any information we may collect from you across our website, https://reconmap.com, and other sites we own and operate.
 
 We only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent. We also let you know why we’re collecting it and how it will be used.

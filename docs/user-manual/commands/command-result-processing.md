@@ -4,8 +4,6 @@ parent: Commands
 grand_parent: User manual
 ---
 
-## {{page.title}}
-
 Reconmap can parse the output of many security tools, and incorporate their results in one of your projects. The instructions below show how to do so step by step.
 
 ### Step 1 - Setting up the command

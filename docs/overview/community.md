@@ -4,8 +4,6 @@ description: Meet the group of people using and developing Reconmap
 has_children: false
 ---
 
-## {{page.title}}
-
 Meet some of our contributors! We are a small team for now but open to new contributors coming with ideas, coding or testing skills, security expertise, and whatnot.
 
 ## Rest-API

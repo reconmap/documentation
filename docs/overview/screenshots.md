@@ -3,8 +3,6 @@ title: Screenshots
 nav_order: 1
 ---
 
-## {{ page.title }}
-
 ### Vulnerabilities
 
 ![Vulnerabilities view](/images/screenshots/vulnerabilities.png)

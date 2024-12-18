@@ -3,8 +3,6 @@ title: Troubleshooting
 parent: Development
 ---
 
-## {{page.title}}
-
 Errors occur for many reasons. From environmental differences, to permissions, to differences in software versions and more. Here you will find some resources that could help you troubleshoot problems with Reconmap. If these notes still leave you facing a problem, reach out to us on [Gitter](https://gitter.im/reconmap/community) where we will happily assist you.
 
 ### Server logs
@@ -13,8 +11,8 @@ Server logs show all sort of warnings and errors and should be your first stop w
 
 If you want to see the last lines of this file run the following Docker command:
 
-```sh 
-$ docker exec reconmap-backend-api tail /var/log/nginx/error.log
+```shell
+docker exec reconmap-backend-api tail /var/log/nginx/error.log
 ```
 
 Example output:

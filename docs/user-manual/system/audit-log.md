@@ -4,8 +4,6 @@ parent: System
 grand_parent: User manual
 ---
 
-## {{page.title}}
-
 The audit log keeps track of all the user actions and is a great way to see what was done by who and when. In addition to this data, it includes the network IP, the user agent and geographical location from where the action was originated.
 
 ![Vulnerabilities view](/images/screenshots/audit-log.png)

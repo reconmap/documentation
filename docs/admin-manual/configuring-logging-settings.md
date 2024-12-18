@@ -3,8 +3,6 @@ title: Configuting logging settings
 parent: Admin manual
 ---
 
-## {{page.title}}
-
 Reconmap API can be configured to log application messages to multiple destinations including local files or remote sys log servers.
 
 ### Logging to local files
@@ -30,7 +28,7 @@ Edit the `config.json` to show the following content at the top level:
 First make sure to spin up a [Graylog](https://www.graylog.org/) somewhere in your system. You can use the following docker compose file to start one with all its dependencies.
 
 ```yaml
-version: '3.8'
+version: "3.8"
 
 services:
   elasticsearch:
@@ -69,12 +67,12 @@ services:
       GRAYLOG_ELASTICSEARCH_HOSTS: "http://elasticsearch:9200"
       GRAYLOG_MONGODB_URI: "mongodb://mongodb:27017/graylog"
     ports:
-      - "5044:5044/tcp"   # Beats
-      - "5140:5140/udp"   # Syslog
-      - "5140:5140/tcp"   # Syslog
-      - "5555:5555/tcp"   # RAW TCP
-      - "5555:5555/udp"   # RAW TCP
-      - "9001:9001/tcp"   # Server API
+      - "5044:5044/tcp" # Beats
+      - "5140:5140/udp" # Syslog
+      - "5140:5140/tcp" # Syslog
+      - "5555:5555/tcp" # RAW TCP
+      - "5555:5555/udp" # RAW TCP
+      - "9001:9001/tcp" # Server API
       - "12201:12201/tcp" # GELF TCP
       - "12201:12201/udp" # GELF UDP
       - "13301:13301/tcp" # Forwarder data
@@ -96,7 +94,7 @@ Ensure to edit `config.json` file to enable the gelf log handler and point to th
       "serverPort": 12201
     }
   },
-  ...  
+  ...
 }
 ```
 

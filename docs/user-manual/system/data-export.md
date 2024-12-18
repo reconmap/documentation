@@ -4,8 +4,6 @@ parent: System
 grand_parent: User manual
 ---
 
-## {{page.title}}
-
 This **System data** page allows you to export data to use between multiple Reconmap instances or to be processed by external scripts and systems.
 
 ![System data export screenshot](/images/screenshots/data-export.png)

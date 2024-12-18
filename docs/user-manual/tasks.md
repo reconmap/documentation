@@ -3,8 +3,6 @@ title: Tasks
 parent: User manual
 ---
 
-## {{page.title}}
-
 The tasks view allows you to see tasks across multiple projects. Each one of the rows contains a brief summary of the task, its status, and the project associated to it.
 
 ![Tasks](/images/screenshots/tasks.png)

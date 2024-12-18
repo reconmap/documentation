@@ -3,8 +3,6 @@ title: Securing a Reconmap server
 parent: Admin manual
 ---
 
-## {{page.title}}
-
 This document assumes you are securing Reconmap on a Debian server. Instructions for other Linux distributions will be different but very similar.
 
 ### Firewall

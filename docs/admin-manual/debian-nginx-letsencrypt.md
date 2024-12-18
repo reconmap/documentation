@@ -3,19 +3,16 @@ title: Installing on Debian, Nginx and Letsencrypt
 parent: Admin manual
 ---
 
-1. TOC
-{:toc}
-
-## {{page.title}}
-
 This document provides instructions on how to install Reconmap in a Debian box. Instructions for other Linux distributions will be different but similar.
 
 Assumptions:
+
 - The box has nothing installed.
 - You have sudo or root access to install all required elements.
 - Your team is small and escalability is not a concern.
 
 Objectives:
+
 - Install Reconmap and all its dependencies
 - Configure Nginx to serve Reconmap through HTTPS using Letsencrypt certificates
 
@@ -85,7 +82,7 @@ server {
         proxy_set_header    X-Forwarded-Proto  \$scheme;
         proxy_set_header    X-Real-IP          \$remote_addr;
         proxy_set_header    Host               \$host;
-    }   
+    }
 }
 
 server {
@@ -100,7 +97,7 @@ server {
         proxy_set_header    X-Forwarded-Proto  \$scheme;
         proxy_set_header    X-Real-IP          \$remote_addr;
         proxy_set_header    Host               \$host;
-    }   
+    }
 }
 EOF
 ```
@@ -120,7 +117,6 @@ sudo certbot -d "YOUR-SECURITY-COMPANY-DOMAIN.com,auth.YOUR-SECURITY-COMPANY-DOM
 
 ### Prepare folder/files
 
-
 ```shell
 mkdir reconmap && cd reconmap
 
@@ -137,15 +133,18 @@ wget https://raw.githubusercontent.com/reconmap/reconmap/master/environment.js
 ```
 
 Changes to `docker-compose.yml`:
+
 - Change default MySQL and Redis passwords.
 
 Changes to `config.json`:
+
 - Change all values under the `jwt` key.
 - Change the `allowedOrigins` array under the `cors` key.
 - Change the SMTP settings to match your SMTP settings.
 - Change the database settings to match what you have put on the MySQL section on the `docker-compose.yml` file.
 
 Changes to `environment.js`:
+
 - Change all URLs, hosts and ports to match the ones for your server and whatever you define in the `docker-compose.yml` file.
 
 ### Starting services
@@ -164,4 +163,3 @@ wget https://raw.githubusercontent.com/reconmap/rest-api/master/database/03-test
 ## Installation verification
 
 **Congratulations!** Your Reconmap instance should be up and running. To verify everything is working open your browser and head to http://localhost:5500 (unless host, IP are different) and enter the [default credentials](/admin-manual/default-credentials.html). You should see a Reconmap's dashboard. If something does not work, visit the [troubleshooting](/development/troubleshooting) page.
-

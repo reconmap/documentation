@@ -4,6 +4,8 @@ repo_url: https://github.com/reconmap/documentation
 
 theme:
   name: material
+  features:
+    - navigation.path
   palette: 
     - scheme: default
       primary: red

@@ -3,8 +3,6 @@ title: Translations
 parent: Development
 ---
 
-## {{page.title}}
-
 Reconmap's user interface support multiple languages and more can be added with ease following the instructions below.
 
 ### Modifying translations

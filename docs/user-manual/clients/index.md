@@ -4,8 +4,6 @@ parent: User manual
 has_children: true
 ---
 
-## {{page.title}}
-
 The clients feature allows you to store client/customer information in the application and link it to other entities such as projects.
 
 ![Multi-client screenshot](/images/screenshots/multi-client.png)

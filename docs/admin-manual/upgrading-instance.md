@@ -3,8 +3,6 @@ title: Upgrading a Reconmap instance
 parent: Admin manual
 ---
 
-## {{page.title}}
-
 ### Incremental upgrade
 
 This is the upgrade path on instances where you have data and you want to preserve it (99% of the cases).

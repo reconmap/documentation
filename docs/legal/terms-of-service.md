@@ -3,8 +3,6 @@ title: Terms of Service
 parent: Legal
 ---
 
-## {{page.title}}
-
 1. Terms
 
 By accessing the website at https://reconmap.com, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law.
@@ -31,7 +29,7 @@ Further, Reconmap does not warrant or make any representations concerning the ac
 In no event shall Reconmap or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on Reconmap's website, even if Reconmap or a Reconmap authorised representative has been notified orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you.
 
 5. Accuracy of materials
-The materials appearing on Reconmap's website could include technical, typographical, or photographic errors. Reconmap does not warrant that any of the materials on its website are accurate, complete or current. Reconmap may make changes to the materials contained on its website at any time without notice. However Reconmap does not make any commitment to update the materials.
+   The materials appearing on Reconmap's website could include technical, typographical, or photographic errors. Reconmap does not warrant that any of the materials on its website are accurate, complete or current. Reconmap may make changes to the materials contained on its website at any time without notice. However Reconmap does not make any commitment to update the materials.
 
 6. Links
 
@@ -42,5 +40,4 @@ Reconmap has not reviewed all of the sites linked to its website and is not resp
 Reconmap may revise these terms of service for its website at any time without notice. By using this website you are agreeing to be bound by the then current version of these terms of service.
 
 8. Governing Law
-These terms and conditions are governed by and construed in accordance with the laws of United Kingdom and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.
-
+   These terms and conditions are governed by and construed in accordance with the laws of United Kingdom and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.

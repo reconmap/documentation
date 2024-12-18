@@ -3,8 +3,6 @@ title: Deployment options
 parent: Admin manual
 ---
 
-## {{page.title}}
-
 Reconmap is made of many microservices and clients, and its deployment can be done in many different ways.
 
 ### Docker compose and swarm

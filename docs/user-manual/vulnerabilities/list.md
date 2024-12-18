@@ -4,8 +4,6 @@ parent: Vulnerabilities
 grand_parent: User manual
 ---
 
-## {{page.title}}
-
 The **vulnerabilities** view lists all the vulnerabilities that were reported by the user or the system (eg automatically after parsing results).
 
 ![Vulnerabilities view](/images/screenshots/vulnerabilities.png)
