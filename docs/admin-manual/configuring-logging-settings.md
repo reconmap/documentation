@@ -1,5 +1,5 @@
 ---
-title: Configuting logging settings
+title: Configuring logging settings
 parent: Admin manual
 ---
 
