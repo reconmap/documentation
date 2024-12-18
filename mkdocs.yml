@@ -1,6 +1,8 @@
 site_name: Reconmap docs
 
+site_url: https://docs.reconmap.com
 repo_url: https://github.com/reconmap/documentation
+edit_uri: edit/main/docs/
 
 theme:
   name: material
@@ -9,8 +11,9 @@ theme:
   favicon: images/favicon.ico
 
   features:
-    - navigation.path
+    - content.action.edit
     - content.code.copy
+    - navigation.footer
   palette: 
     - scheme: default
       primary: red
@@ -24,8 +27,17 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
 
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: false
+
 extra:
   generator: false
+  social:
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/reconmap
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/reconmap/
 
 markdown_extensions:
   - pymdownx.highlight:
