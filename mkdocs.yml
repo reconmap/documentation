@@ -28,6 +28,7 @@ theme:
         name: Switch to light mode
 
 plugins:
+  - search
   - git-revision-date-localized:
       enable_creation_date: false
 
