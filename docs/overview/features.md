@@ -16,6 +16,7 @@ nav_order: 1
 - Security commands database and automation
 - Scheduled commands using cron expressions
 - Tasks manager
+- Support for multiple top-level organisations (eg many pentest companies on the same tenant)
 - Client management
 - Client contacts (general, billing, technical)
 - Weekly email reports
@@ -24,7 +25,8 @@ nav_order: 1
 - Browser terminal integration
 - Notes with markdown support
 - Attachments (docs, screenshots) to projects, vulnerabilities and tasks
-- Custom (whitelabel) [report generation](/user-manual/reports/index.html)
+- [Report generation](/user-manual/reports/index.html) in rich (Word) and plain text formats (Markdown, HTML, LaTeX, ...)
+- Custom (whitelabel) reporting
 - [Audit log](/user-manual/system/audit-log.html)
 - Web and mobile clients
 - [User notifications](/user-manual/users/user-notifications.html)
