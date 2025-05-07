@@ -22,7 +22,7 @@ Find a server where to install Reconmap. The hardware requirements vary dependin
 
 If your budget is limited but you want to run Reconmap and support the project, consider using the badge bellow which gives this team an small comission when you deploy a droplet. Thanks!
 
-[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=b2b6c64caae7&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
+[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=44bd6d34b6ac&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
 
 ### Install basic tools
 
