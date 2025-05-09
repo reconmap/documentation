@@ -1,6 +1,6 @@
 site_name: Reconmap docs
 
-site_url: https://docs.reconmap.com
+site_url: https://reconmap.com
 repo_url: https://github.com/reconmap/documentation
 edit_uri: edit/main/docs/
 
@@ -36,8 +36,6 @@ plugins:
 extra:
   generator: false
   social:
-    - icon: fontawesome/brands/x-twitter
-      link: https://twitter.com/reconmap
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/reconmap/
 

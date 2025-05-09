@@ -12,5 +12,5 @@ This repository contain the markdown files that generate content for https://rec
 
 ```shell
 make
-xdg-open http://localhost:4000 # or mozilla http://localhost:4000
+xdg-open http://localhost:8000
 ```
