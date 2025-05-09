@@ -38,6 +38,9 @@ extra:
   social:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/reconmap/
+  analytics:
+    provider: google
+    property: G-J7M2RL7VD1
 
 markdown_extensions:
   - pymdownx.highlight:
