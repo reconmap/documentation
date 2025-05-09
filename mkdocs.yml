@@ -1,8 +1,8 @@
 site_name: Reconmap docs
 
 site_url: https://reconmap.com
-repo_url: https://github.com/reconmap/documentation
-edit_uri: edit/main/docs/
+repo_url: https://github.com/reconmap/reconmap
+edit_uri: https://github.com/reconmap/documentation/edit/main/docs/
 
 theme:
   name: material
