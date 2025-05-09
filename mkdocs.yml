@@ -14,7 +14,7 @@ theme:
     - content.action.edit
     - content.code.copy
     - navigation.footer
-  palette: 
+  palette:
     - scheme: default
       primary: red
       toggle:
@@ -29,6 +29,7 @@ theme:
 
 plugins:
   - search
+  - tags
   - git-revision-date-localized:
       enable_creation_date: false
 

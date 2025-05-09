@@ -1,6 +1,6 @@
 # Reconmap documentation
 
-This repository contain the markdown files that generate content for http://docs.reconmap.com
+This repository contain the markdown files that generate content for https://reconmap.com
 
 ## Dependencies
 
