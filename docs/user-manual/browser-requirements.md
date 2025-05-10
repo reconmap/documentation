@@ -1,14 +1,18 @@
 ---
 title: Browser requirements
 parent: User manual
+tags: [compatibility]
 ---
 
-Reconmap is being developed and tested against the latest stable versions of different browser vendors. Our web application works best in the following browsers:
+Reconmap is compatible with all recent versions of modern web browsers across all major operating systems. However, for optimal **security**, **performance**, and **supportability**, we recommend using the latest **stable**[^stable] release of [Mozilla Firefox](https://www.mozilla.org/en-GB/firefox/new/) or [Google Chrome](https://www.google.com/intl/en_uk/chrome/).
 
-| Browser         | Version |
-| --------------- | ------- |
-| Google Chrome   | 87, 88  |
-| Mozilla Firefox | 85      |
-| Microsoft Edge  | 88      |
+While other browsers may function correctly, they may not offer the best experience or full compatibility.
 
-Other browsers work as well but the experience might not be as optimal.
+We regularly test Reconmap on the latest versions of Google Chrome and Mozilla Firefox to ensure consistent performance.
+
+To check whether your browser is up to date, visit one of the following resources:
+
+- <https://browser-update.org/browsers.html>
+- <http://browsers.fyi>
+
+[^stable]: **Note:** "Stable" refers to official public releases, excluding beta, nightly, or canary versions.
