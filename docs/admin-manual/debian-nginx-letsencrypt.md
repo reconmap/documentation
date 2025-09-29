@@ -58,7 +58,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 ```shell
 sudo apt install -y nginx
-sudo cat <<EOF >/etc/nginx/sites-enabled/default
+sudo cat <<'EOF' >/etc/nginx/sites-enabled/default
 server {
     server_tokens off;
     server_name YOUR-SECURITY-COMPANY-DOMAIN.com;
@@ -76,12 +76,12 @@ server {
 
     location / {
         proxy_pass http://127.0.0.1:8080;
-        proxy_set_header    X-Forwarded-Host   \$host;
-        proxy_set_header    X-Forwarded-Server \$host;
-        proxy_set_header    X-Forwarded-For    \$proxy_add_x_forwarded_for;
-        proxy_set_header    X-Forwarded-Proto  \$scheme;
-        proxy_set_header    X-Real-IP          \$remote_addr;
-        proxy_set_header    Host               \$host;
+        proxy_set_header    X-Forwarded-Host   $host;
+        proxy_set_header    X-Forwarded-Server $host;
+        proxy_set_header    X-Forwarded-For    $proxy_add_x_forwarded_for;
+        proxy_set_header    X-Forwarded-Proto  $scheme;
+        proxy_set_header    X-Real-IP          $remote_addr;
+        proxy_set_header    Host               $host;
     }
 }
 
@@ -91,18 +91,17 @@ server {
 
     location / {
         proxy_pass http://127.0.0.1:5510;
-        proxy_set_header    X-Forwarded-Host   \$host;
-        proxy_set_header    X-Forwarded-Server \$host;
-        proxy_set_header    X-Forwarded-For    \$proxy_add_x_forwarded_for;
-        proxy_set_header    X-Forwarded-Proto  \$scheme;
-        proxy_set_header    X-Real-IP          \$remote_addr;
-        proxy_set_header    Host               \$host;
+        proxy_set_header    X-Forwarded-Host   $host;
+        proxy_set_header    X-Forwarded-Server $host;
+        proxy_set_header    X-Forwarded-For    $proxy_add_x_forwarded_for;
+        proxy_set_header    X-Forwarded-Proto  $scheme;
+        proxy_set_header    X-Real-IP          $remote_addr;
+        proxy_set_header    Host               $host;
     }
 }
 EOF
 ```
 
-**Important:** If you are copy and pasting the nginx configuration above instead of using `cat` remove all the escaping (ie `$` instead of `\$`) or strange things will happen!
 {: .bg-red-000 .text-grey-dk-250 .p-3 }
 
 ### Install and configure Letsencrypt
