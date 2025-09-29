@@ -153,12 +153,6 @@ sudo docker-compose up -d
 sudo service nginx restart
 ```
 
-### Install test data
-
-```shell
-wget https://raw.githubusercontent.com/reconmap/rest-api/master/database/03-test-data.sql -O- | docker exec -i rmap-mysql mysql -ureconmapper -preconmapped reconmap
-```
-
 ## Installation verification
 
 **Congratulations!** Your Reconmap instance should be up and running. To verify everything is working open your browser and head to http://localhost:5500 (unless host, IP are different) and enter the [default credentials](/admin-manual/default-credentials.html). You should see a Reconmap's dashboard. If something does not work, visit the [troubleshooting](/development/troubleshooting) page.
