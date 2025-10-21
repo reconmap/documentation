@@ -1,6 +1,6 @@
 # Reconmap documentation
 
-This repository contain the markdown files that generate content for https://reconmap.com
+This repository contain the markdown files that generate the user and admin manuals content for the Reconmap tool. 
 
 ## Dependencies
 
