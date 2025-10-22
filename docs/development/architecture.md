@@ -9,6 +9,6 @@ A keycloak identity service (Open ID connect) is used to authenticate users and 
 
 The last part of this architecture is Rabbitmq, a message queue and broker.
 
-![Reconmap architecture](https://raw.githubusercontent.com/reconmap/architecture-diagrams/main/reconmap_system_architecture.png)
+![Reconmap architecture](reconmap-high-level-architecture.png)
 
-_The diagram above was created from code using Python. See the source [here](https://github.com/reconmap/architecture-diagrams)._
+_The diagram above was created from code using [draw.io](https://www.drawio.com/). See the source [here](../../diagrams/reconmap-high-level-architecture.drawio)._
