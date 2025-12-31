@@ -17,7 +17,7 @@ More information on how to deploy Reconmap to K8s can be found on this [Github r
 
 ### Manually
 
-Manually refers to the option of installing all dependencies (eg PHP, MySQL, Nginx, ...) and the application on an operating system and server of your choice.
+Manually refers to the option of installing all dependencies (eg .NET, MySQL, Nginx, ...) and the application on an operating system and server of your choice.
 
 This option gives you complete flexibility but also adds a lot of maintenance overhead.
 

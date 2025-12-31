@@ -13,7 +13,6 @@ Run the following commands on the directory where you have your `docker-compose.
 docker-compose pull # Download latest version of the docker images
 docker-compose down # Stop and remove any containers
 docker-compose up -d # Build containers and start them
-docker-compose run --entrypoint /usr/bin/php api /var/www/webapp/src/Cli/app.php database:migrate-schema # Perform any database migration
 ```
 
 ### Destructive upgrade

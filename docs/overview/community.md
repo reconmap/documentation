@@ -19,5 +19,3 @@ Meet some of our contributors! We are a small team for now but open to new contr
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
-
-Head over to [Gitter](https://gitter.im/reconmap/community) to have a chat an discuss how to get involved with the community.
