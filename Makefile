@@ -1,7 +1,7 @@
 
 .PHONY: docs-serve
 docs-serve: deps-install
-	mkdocs serve
+	mkdocs serve --livereload
 
 .PHONY: deps-install
 deps-install:
